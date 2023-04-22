@@ -1,0 +1,19 @@
+.cnButton {
+  background: cadetblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cnButton:active {
+  background: rgb(74, 122, 124);
+}
+
+.cnButton:disabled {
+  background: #e3f2fd;
+}

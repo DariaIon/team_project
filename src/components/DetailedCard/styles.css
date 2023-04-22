@@ -1,0 +1,124 @@
+.cnDetailedCardRoot {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border: 1px solid rgba(61, 61, 61, 0.219);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.cnDetailedCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 60px;
+  background-color: #fafafa;
+}
+
+.cnDetailedCardImg {
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.cnDetailedCardTime {
+  margin-right: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.cnDetailedCardTitle {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cnDetailedCardTags {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cnDetailedCardTags span {
+  box-sizing: border-box;
+  font-size: 12px;
+  padding: 3px 10px;
+  font-weight: 600;
+  background-color: #eb769d;
+  border-radius: 5px;
+  color: white;
+  width: auto;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.cnDetailedCardDescription {
+  font-size: 14px;
+}
+
+.cnDetailedCardButtons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.cnDetailedCardButtons i {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cnDetailedCardLikes {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cnDetailedCardLikeIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.cnDetailedCardComments {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.cnDetailedCardLikeComment {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cnDetailedCardCommentTitle {
+  font-size: 14px;
+  color: #b3b2b2;
+}
+
+@media (min-width: 1400px) {
+  .cnDetailedCardRoot {
+    width: 600px;
+  }
+}
+
+@media (max-width: 780px) {
+  .cnDetailedCardRoot {
+    max-width: 360px;
+  }
+
+  .cnDetailedCardTextAreaWrapper {
+    max-width: 360px;
+  }
+}
+
+.cnDetailedCardTitle {
+  padding-top: 15px;
+}

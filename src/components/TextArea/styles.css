@@ -1,0 +1,53 @@
+.cnTextAreaWrapper {
+  position: relative;
+  background: #ffffff0f;
+}
+
+.cnTextArea {
+  margin-top: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 5px;
+  outline: none;
+  resize: none;
+  width: 70%;
+  min-height: 70px;
+  border: 1px solid #5f9ea0;
+  border-radius: 10px;
+}
+
+.cnTextArea:focus {
+  border: 1px solid palevioletred;
+}
+
+.cnSendButton {
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+}
+
+@media (max-width: 780px) {
+  .cnTextAreaWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cnTextArea {
+    box-sizing: border-box;
+    background-color: #fafafa;
+    outline: none;
+    resize: none;
+    width: 90%;
+  }
+
+  .cnDetailedCardTextAreaWrapper {
+    max-width: 360px;
+  }
+
+  .cnSendButton {
+    position: static;
+  }
+}
